@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int totalSum(int num) {
+    int sum = 0;
+    for(int i = 0; i < num + 1; i++) {
+        sum += i;
+    }
+    return sum;
+}
+
+int main() {
+    cout << totalSum2(5);
+	return 0;
+}
